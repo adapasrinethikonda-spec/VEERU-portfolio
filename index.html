@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VEERU — Video Editor</title>
+  <meta name="description" content="VEERU is a video editor from Vijayawada, India, editing YouTube documentaries, reels and shorts. Watch the showreel and previous work.">
+
+  <!-- Sharing preview (WhatsApp, LinkedIn, Facebook, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="VEERU">
+  <meta property="og:title" content="VEERU — Video Editor">
+  <meta property="og:description" content="Video editor from Vijayawada, India. YouTube documentaries, reels and shorts.">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0b1f4b">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" data-config="name" aria-label="Home"></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="work.html">Previous Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="about.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <noscript><p class="noscript-note">Please turn on JavaScript to view this website.</p></noscript>
+
+  <main id="main">
+    <section class="hero container">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1 data-config="name"></h1>
+      <p class="hero-role" data-config="jobTitle"></p>
+      <p class="hero-intro" data-config="intro"></p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="work.html">Previous Work</a>
+        <a class="btn btn-ghost" href="about.html#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <section class="section showreel container reveal" aria-labelledby="showreel-title">
+      <h2 class="section-title" id="showreel-title">Showreel</h2>
+      <div id="showreel"></div>
+    </section>
+
+    <section class="section container reveal" aria-labelledby="cta-title">
+      <div class="cta">
+        <div>
+          <h2 id="cta-title">Have a video to edit?</h2>
+          <p>Send me a message and we can talk about it.</p>
+        </div>
+        <a class="btn btn-primary" href="about.html#contact">Contact Me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year></span> <span data-config="name"></span></span>
+      <span data-config="location"></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About &amp; Contact — VEERU</title>
+  <meta name="description" content="About VEERU, a video editor from Vijayawada, India with 1 year of experience. Skills, software and contact details.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="VEERU">
+  <meta property="og:title" content="About &amp; Contact — VEERU">
+  <meta property="og:description" content="About VEERU, a video editor from Vijayawada, India. Skills, software and contact details.">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#0b1f4b">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" data-config="name" aria-label="Home"></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Previous Work</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <noscript><p class="noscript-note">Please turn on JavaScript to view this website.</p></noscript>
+
+  <main id="main">
+    <div class="page-head container">
+      <h1 class="page-title">About</h1>
+    </div>
+
+    <div class="container about-grid">
+      <div class="about-text">
+        <div id="about-text" class="about-block reveal"></div>
+
+        <section class="about-block reveal" aria-labelledby="skills-title">
+          <h2 class="section-title" id="skills-title">Skills</h2>
+          <ul class="pill-list" id="skills-list"></ul>
+        </section>
+
+        <section class="about-block reveal" aria-labelledby="software-title">
+          <h2 class="section-title" id="software-title">Software</h2>
+          <ul class="pill-list is-tint" id="software-list"></ul>
+        </section>
+      </div>
+
+      <section class="contact-card reveal" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <div class="contact-row">
+          <span class="label">Email</span>
+          <a id="contact-email" href="#"></a>
+        </div>
+        <div class="contact-row">
+          <span class="label">Phone / WhatsApp</span>
+          <a id="contact-phone" href="#"></a>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn-primary" id="contact-email-btn" href="#">Send an Email</a>
+          <a class="btn btn-ghost" id="contact-whatsapp" href="#" target="_blank" rel="noopener" hidden>WhatsApp</a>
+          <a class="btn btn-ghost" id="resume-btn" href="#" download hidden>Download Resume</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year></span> <span data-config="name"></span></span>
+      <span data-config="location"></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
