@@ -105,11 +105,9 @@
     frame.appendChild(video);
 
     // Poster: only use it if the image really exists.
-    if (posterSrc) {
-      var test = new Image();
-      test.onload = function () { video.poster = posterSrc; };
-      test.src = posterSrc;
-    }
+    if (posterSrc)  {
+  video.poster = posterSrc;
+}
 
     // Use the real shape of the video (horizontal or vertical).
     video.addEventListener("loadedmetadata", function () {
